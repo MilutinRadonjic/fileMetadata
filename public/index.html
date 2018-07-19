@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>File Metadata</title>
+    <base href="/">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="text-center mt-5">
+        <div class="row">
+            <div class="col-6 offset-5 form-inline">
+                <form action='/upload' method='post' enctype="multipart/form-data">
+                    <label for="upfile">Select file to upload</label>
+                    <hr>
+                    <input class="btn btn-success" type='file' id="file" name='upfile'><br><br>
+                    <input class="btn btn-primary" type='submit' value="Submit">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
